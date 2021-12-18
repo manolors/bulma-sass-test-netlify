@@ -1,0 +1,29 @@
+{
+  "name": "bulma-sass-test-netlify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "serve": "^13.0.2"
+  },
+  "devDependencies": {
+    "sass": "^1.45.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass public/sass/estilos.scss public/css/estilos.css",
+    "watch": "sass --watch public/sass/estilos.scss public/css/estilos.css",
+    "serve": "serve public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manolors/bulma-sass-test-netlify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manolors/bulma-sass-test-netlify/issues"
+  },
+  "homepage": "https://github.com/manolors/bulma-sass-test-netlify#readme"
+}
