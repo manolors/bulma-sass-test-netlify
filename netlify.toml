@@ -2,8 +2,4 @@
 command="npm run build"
 publish="public"
 functions = "netlify/functions"
-environment = {
-  PROJECT_COPY_DIR = "/that/one/place",
-  LALALAL = "go/go/gadget.go",
-  SECRETISIMO = "abc1234teeheehee"
-}
+environment = { PROJECT_COPY_DIR = "/that/one/place", LALALAL = "go/go/gadget.go", SECRETISIMO = "abc1234teeheehee" }
