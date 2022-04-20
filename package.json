@@ -5,14 +5,14 @@
   "main": "index.js",
   "dependencies": {
     "bulma": "^0.9.3",
-    "serve": "^13.0.2"
+    "faunadb": "^4.5.4"
   },
   "devDependencies": {
     "sass": "^1.45.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass public/sass/estilos.scss public/css/estilos.css --style compressed",
+    "build": "node ./scripts/createEnv.js && sass public/sass/estilos.scss public/css/estilos.css --style compressed",
     "build-dev": "sass public/sass/estilos.scss public/css/estilos.css",
     "watch": "sass --watch public/sass/estilos.scss public/css/estilos.css",
     "serve": "serve public/"

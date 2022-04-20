@@ -1,6 +1,12 @@
 [build]
 command="npm run build"
 publish="public"
+functions = "aguacate/maduro"
 
 [context.branch-deploy]
 command="npm run build-dev"
+
+[context.RamaCambiosCSS]
+command="npm run build-dev"
+publish="dist"
+SECRETO=12345
