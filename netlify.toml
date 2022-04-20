@@ -2,4 +2,5 @@
 command="npm run build"
 publish="public"
 functions = "netlify/functions"
+WOLOLO=1234567
 environment = { PROJECT_COPY_DIR = "/that/one/place", LALALAL = "go/go/gadget.go", SECRETISIMO = "abc1234teeheehee" }
