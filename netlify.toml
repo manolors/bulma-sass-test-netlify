@@ -2,14 +2,8 @@
 command="npm run build"
 publish="public"
 functions = "netlify/functions"
-SECRETO="12345"
-
-[context.branch-deploy]
-command="npm run build-dev"
-SECRETO="123456"
-
-[context.RamaCambiosCSS]
-command="npm run build-dev"
-functions = "netlify/functions"
-publish="public"
-SECRETO="1234567"
+environment = {
+  PROJECT_COPY_DIR = "/that/one/place",
+  LALALAL = "go/go/gadget.go",
+  SECRETISIMO = "abc1234teeheehee"
+}
